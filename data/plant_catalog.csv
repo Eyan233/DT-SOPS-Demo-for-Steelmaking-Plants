@@ -1,0 +1,13 @@
+demo_id,plant_case,process_scope,workload,planning_result,calibration_outline,simulation_status
+Model0,Zhejiang Yuanli Steelmaking Plant,BOF to continuous casting,134 heats,CCT 1410,Sequence-based planning,Completed as planned
+Model1,Sichuan Desheng Steelmaking Plant,Hot-metal arrival to continuous casting,126 heats,CCT 1421,"Compact planning; route adaptation; casting-priority adjustment; schedule repair",Completed as planned
+Model2,Rizhao ESP Steelmaking Plant,BOF to continuous casting,257 heats,CCT 1470,Sequence-based planning,Completed as planned
+Model3,Jiangsu Yonggang Steelmaking Plant,Hot-metal arrival to continuous casting,41 / 97 heats (72 h),CCT 1664 / 4365,Sequence-based planning and casting-start repair,Completed as planned
+Model4,Jingye Steelmaking Plant,BOF to continuous casting,64 / 85 heats,CCT 2836 for the reported scenario,Sequence-based planning and casting-start repair,Completed as planned
+Model5,Dagang Steelmaking Plant,Hot-metal arrival to continuous casting,84 heats,CCT 1440,Sequence-based planning,Completed as planned
+Model6,Hangang Steelmaking Plant,Hot-metal arrival to BOF,135 heats,Production requirement satisfied,Sequence-based planning,Completed as planned
+Model7,Nangang Steelmaking Plant,One-ladle hot-metal process to continuous casting,90 heats,CCT 1469,Hybrid compact/sequence planning and casting-start repair,Completed as planned
+Model8,Xindachang Plant,One-ladle hot-metal process to BOF,74 heats,Production requirement satisfied,Compact planning,Completed as planned
+Model9,Yinggang Steelmaking Plant,BOF to continuous casting,64 heats,CCT 1410,Sequence-based planning,Completed as planned
+Model10,Jingxi Steel Plant,Hot-metal arrival to continuous casting,83 heats,CCT 1609,Compact planning,Completed as planned
+Model11,Shandong Steel Plant,BOF to continuous casting,185 heats,CCT 1832,"Compact planning; route adaptation; schedule repair",Completed as planned
