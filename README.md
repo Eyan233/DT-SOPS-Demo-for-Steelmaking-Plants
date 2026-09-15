@@ -14,6 +14,14 @@ This repository presents visual demonstrations of **DT-SOPS**, a digital twin-en
 
 DT-SOPS combines rapid model-based scheduling optimization with evaluation in a more detailed simulation-based digital twin. When a candidate schedule does not satisfy the prescribed executability criterion, evaluation feedback is used to calibrate the model and adjust the schedule before another simulation run.
 
+## Animated system overview
+
+<p align="center">
+  <img src="assets/dt-sops-workflow.gif" width="92%" alt="Animated overview of the DT-SOPS simulation-based digital twin workflow">
+</p>
+
+The animation is an excerpt from the full DT-SOPS demonstration video and shows the simulation-based DT environment in operation.
+
 > **Evidence scope.** The companion manuscript reports quantitative experiments for three plant cases. The additional configurations shown here provide qualitative evidence of engineering implementation and modular reuse; they are not presented as proof of direct generalization to an unseen plant.
 
 ## Plant portfolio
@@ -35,9 +43,9 @@ DT-SOPS combines rapid model-based scheduling optimization with evaluation in a 
 
 The structured version of this catalog is available in [`data/plant_catalog.csv`](data/plant_catalog.csv). Product-family identifiers in the demonstrations are anonymized.
 
-## Simulation gallery
+## Plant implementation gallery
 
-Each card pairs the plant-specific simulation-based DT view with its continuous-casting rhythm. Select an image to inspect it at full resolution.
+Each card pairs a plant-specific simulation-based DT view with its continuous-casting rhythm. Select an image to inspect it at full resolution.
 
 <table>
   <tr>
@@ -151,6 +159,7 @@ The manuscript positions the current implementation as an offline simulation-bas
 .
 |-- README.md
 |-- assets/
+|   |-- dt-sops-workflow.gif # Animated system overview
 |   |-- simulation/          # Plant-specific simulation views
 |   `-- casting-rhythm/      # Production and continuous-casting rhythm charts
 `-- data/
@@ -160,4 +169,3 @@ The manuscript positions the current implementation as an offline simulation-bas
 ## Data and confidentiality
 
 This public repository contains demonstration images and an abstracted configuration catalog. It does not include proprietary raw production records, executable plant models, control interfaces, or confidential process parameters. Product-family identifiers shown in the source demonstrations are anonymized.
-
