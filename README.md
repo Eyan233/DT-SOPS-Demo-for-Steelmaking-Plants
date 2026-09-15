@@ -14,13 +14,17 @@ This repository presents visual demonstrations of **DT-SOPS**, a digital twin-en
 
 DT-SOPS combines rapid model-based scheduling optimization with evaluation in a more detailed simulation-based digital twin. When a candidate schedule does not satisfy the prescribed executability criterion, evaluation feedback is used to calibrate the model and adjust the schedule before another simulation run.
 
-## Animated system overview
+## Demonstration video
 
 <p align="center">
-  <img src="assets/dt-sops-workflow.gif" width="92%" alt="Animated overview of the DT-SOPS simulation-based digital twin workflow">
+  <a href="assets/dt-sops-demonstration.mp4">
+    <img src="assets/dt-sops-video-preview.jpg" width="92%" alt="Preview of the DT-SOPS demonstration video">
+  </a>
 </p>
 
-The animation is an excerpt from the full DT-SOPS demonstration video and shows the simulation-based DT environment in operation.
+<p align="center">
+  <strong><a href="assets/dt-sops-demonstration.mp4">&#9654; Watch the full DT-SOPS demonstration video</a></strong>
+</p>
 
 > **Evidence scope.** The companion manuscript reports quantitative experiments for three plant cases. The additional configurations shown here provide qualitative evidence of engineering implementation and modular reuse; they are not presented as proof of direct generalization to an unseen plant.
 
@@ -159,7 +163,8 @@ The manuscript positions the current implementation as an offline simulation-bas
 .
 |-- README.md
 |-- assets/
-|   |-- dt-sops-workflow.gif # Animated system overview
+|   |-- dt-sops-demonstration.mp4 # Full demonstration video
+|   |-- dt-sops-video-preview.jpg # Video preview
 |   |-- simulation/          # Plant-specific simulation views
 |   `-- casting-rhythm/      # Production and continuous-casting rhythm charts
 `-- data/
