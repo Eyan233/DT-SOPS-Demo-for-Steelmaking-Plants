@@ -14,19 +14,15 @@ This repository presents visual demonstrations of **DT-SOPS**, a digital twin-en
 
 DT-SOPS combines rapid model-based scheduling optimization with evaluation in a more detailed simulation-based digital twin. When a candidate schedule does not satisfy the prescribed executability criterion, evaluation feedback is used to calibrate the model and adjust the schedule before another simulation run.
 
-## Demonstration video
+## System framework
 
 <p align="center">
-  <a href="assets/dt-sops-demonstration.mp4">
-    <img src="assets/dt-sops-video-preview.jpg" width="92%" alt="Preview of the DT-SOPS demonstration video">
-  </a>
+  <img src="assets/dt-sops-framework.png" alt="DT-SOPS system framework">
 </p>
 
-<p align="center">
-  <strong><a href="assets/dt-sops-demonstration.mp4">&#9654; Watch the full DT-SOPS demonstration video</a></strong>
-</p>
+The framework coordinates the Scheduler, simulation-based DT, Evaluation, and Calibration modules through shared data and iterative feedback.
 
-> **Evidence scope.** The companion manuscript reports quantitative experiments for three plant cases. The additional configurations shown here provide qualitative evidence of engineering implementation and modular reuse; they are not presented as proof of direct generalization to an unseen plant.
+> **Evidence scope.** The demonstrations provide qualitative evidence of engineering implementation and modular reuse across different plant configurations; they are not presented as proof of direct generalization to an unseen plant.
 
 ## Plant portfolio
 
@@ -138,24 +134,9 @@ Each card pairs a plant-specific simulation-based DT view with its continuous-ca
   </tr>
 </table>
 
-## What varies across the demonstrations
-
-- **Production boundary:** the modeled process begins at hot-metal arrival or BOF production and extends to BOF or continuous casting, depending on the case.
-- **Plant structure:** the models contain different machine combinations, parallel units, routing alternatives, and casting-machine arrangements.
-- **Workload:** the demonstrated cases range from 41 to 257 heats, including an extended 72-hour scenario.
-- **Calibration actions:** the cases include sequence-based and compact planning, route adaptation, casting-priority adjustment, delayed casting-start adjustment, and local schedule repair.
-
-These variations illustrate why DT-SOPS is organized into reusable Scheduler, simulation-based DT, Evaluation, and Calibration components while retaining plant-specific model configuration.
-
 ## Reading the figures
 
-The upper image in each card shows the corresponding simulation-based DT implementation. The lower image shows the planned production rhythm used to inspect casting continuity and temporal coordination. The demonstrations visualize plant-specific implementation; quantitative performance comparisons and statistical analyses are reported in the companion manuscript and its supplementary material.
-
-## Companion manuscript
-
-**DT-SOPS: A digital twin-enabled scheduling optimization system to bridge the model-reality gap with case studies in the steelmaking industry**
-
-The manuscript positions the current implementation as an offline simulation-based DT. Connection to shop-floor sensors, controllers, and an online physical system remains future work.
+The upper image in each card shows the corresponding simulation-based DT implementation. The lower image shows the planned production rhythm used to inspect casting continuity and temporal coordination. These materials are provided for visual inspection of the plant-specific implementations.
 
 ## Repository contents
 
@@ -163,8 +144,7 @@ The manuscript positions the current implementation as an offline simulation-bas
 .
 |-- README.md
 |-- assets/
-|   |-- dt-sops-demonstration.mp4 # Full demonstration video
-|   |-- dt-sops-video-preview.jpg # Video preview
+|   |-- dt-sops-framework.png # DT-SOPS system framework
 |   |-- simulation/          # Plant-specific simulation views
 |   `-- casting-rhythm/      # Production and continuous-casting rhythm charts
 `-- data/
@@ -173,4 +153,4 @@ The manuscript positions the current implementation as an offline simulation-bas
 
 ## Data and confidentiality
 
-This public repository contains demonstration images and an abstracted configuration catalog. It does not include proprietary raw production records, executable plant models, control interfaces, or confidential process parameters. Product-family identifiers shown in the source demonstrations are anonymized.
+This repository is intended primarily as a visual demonstration. The underlying work was conducted in collaboration with industrial partners and is subject to project confidentiality requirements; therefore, the original production data, detailed plant parameters, executable models, and control interfaces cannot be disclosed publicly. Only anonymized visual demonstrations and an abstracted configuration catalog are provided.
