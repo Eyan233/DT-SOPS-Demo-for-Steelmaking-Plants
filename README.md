@@ -28,18 +28,18 @@ The framework coordinates the Scheduler, simulation-based DT, Evaluation, and Ca
 
 | Demo | Plant case | Process scope | Workload | Reported planning result | Calibration outline |
 |---|---|---|---:|---|---|
-| Model 0 | Zhejiang Yuanli Steelmaking Plant | BOF to continuous casting | 134 heats | CCT: 1410 | Sequence-based planning |
-| Model 1 | Sichuan Desheng Steelmaking Plant | Hot-metal arrival to continuous casting | 126 heats | CCT: 1421 | Compact planning, route adaptation, casting-priority adjustment, and schedule repair |
-| Model 2 | Rizhao ESP Steelmaking Plant | BOF to continuous casting | 257 heats | CCT: 1470 | Sequence-based planning |
-| Model 3 | Jiangsu Yonggang Steelmaking Plant | Hot-metal arrival to continuous casting | 41 / 97 heats (72 h) | CCT: 1664 / 4365 | Sequence-based planning and casting-start repair |
-| Model 4 | Jingye Steelmaking Plant | BOF to continuous casting | 64 / 85 heats | CCT: 2836 for the reported scenario | Sequence-based planning and casting-start repair |
-| Model 5 | Dagang Steelmaking Plant | Hot-metal arrival to continuous casting | 84 heats | CCT: 1440 | Sequence-based planning |
+| Model 0 | Zhejiang Yuanli Steelmaking Plant | BOF to continuous casting | 134 heats | CCD: 1410 min | Sequence-based planning |
+| Model 1 | Sichuan Desheng Steelmaking Plant | Hot-metal arrival to continuous casting | 126 heats | CCD: 1421 min | Compact planning, route adaptation, casting-priority adjustment, and schedule repair |
+| Model 2 | Rizhao ESP Steelmaking Plant | BOF to continuous casting | 257 heats | CCD: 1470 min | Sequence-based planning |
+| Model 3 | Jiangsu Yonggang Steelmaking Plant | Hot-metal arrival to continuous casting | 41 / 97 heats (72 h) | CCD: 1664 / 4365 min | Sequence-based planning and casting-start repair |
+| Model 4 | Jingye Steelmaking Plant | BOF to continuous casting | 64 / 85 heats | CCD: 2836 min for the reported scenario | Sequence-based planning and casting-start repair |
+| Model 5 | Dagang Steelmaking Plant | Hot-metal arrival to continuous casting | 84 heats | CCD: 1440 min | Sequence-based planning |
 | Model 6 | Hangang Steelmaking Plant | Hot-metal arrival to BOF | 135 heats | Production requirement satisfied | Sequence-based planning |
-| Model 7 | Nangang Steelmaking Plant | One-ladle hot-metal process to continuous casting | 90 heats | CCT: 1469 | Hybrid compact/sequence planning and casting-start repair |
+| Model 7 | Nangang Steelmaking Plant | One-ladle hot-metal process to continuous casting | 90 heats | CCD: 1469 min | Hybrid compact/sequence planning and casting-start repair |
 | Model 8 | Xindachang Plant | One-ladle hot-metal process to BOF | 74 heats | Production requirement satisfied | Compact planning |
-| Model 9 | Yinggang Steelmaking Plant | BOF to continuous casting | 64 heats | CCT: 1410 | Sequence-based planning |
-| Model 10 | Jingxi Steel Plant | Hot-metal arrival to continuous casting | 83 heats | CCT: 1609 | Compact planning |
-| Model 11 | Shandong Steel Plant | BOF to continuous casting | 185 heats | CCT: 1832 | Compact planning, route adaptation, and schedule repair |
+| Model 9 | Yinggang Steelmaking Plant | BOF to continuous casting | 64 heats | CCD: 1410 min | Sequence-based planning |
+| Model 10 | Jingxi Steel Plant | Hot-metal arrival to continuous casting | 83 heats | CCD: 1609 min | Compact planning |
+| Model 11 | Shandong Steel Plant | BOF to continuous casting | 185 heats | CCD: 1832 min | Compact planning, route adaptation, and schedule repair |
 
 The structured version of this catalog is available in [`data/plant_catalog.csv`](data/plant_catalog.csv). Product-family identifiers in the demonstrations are anonymized.
 
