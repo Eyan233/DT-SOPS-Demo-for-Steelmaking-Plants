@@ -35,8 +35,8 @@ The framework coordinates the Scheduler, simulation-based DT, Evaluation, and Ca
 | Model 4 | Jingye Steelmaking Plant | BOF to continuous casting | 64 / 85 heats | CCD: 2836 min for the reported scenario | Sequence-based planning and casting-start repair |
 | Model 5 | Dagang Steelmaking Plant | Hot-metal arrival to continuous casting | 84 heats | CCD: 1440 min | Sequence-based planning |
 | Model 6 | Hangang Steelmaking Plant | Hot-metal arrival to BOF | 135 heats | Production requirement satisfied | Sequence-based planning |
-| Model 7 | Nangang Steelmaking Plant | One-ladle hot-metal process to continuous casting | 90 heats | CCD: 1469 min | Hybrid compact/sequence planning and casting-start repair |
-| Model 8 | Xindachang Plant | One-ladle hot-metal process to BOF | 74 heats | Production requirement satisfied | Compact planning |
+| Model 7 | Nangang Steelmaking Plant | Blast-furnace iron tapping to continuous casting | 90 heats | CCD: 1469 min | Hybrid compact/sequence planning and casting-start repair |
+| Model 8 | Xindachang Plant | Blast-furnace iron tapping to continuous casting | 74 heats | Production requirement satisfied | Compact planning |
 | Model 9 | Yinggang Steelmaking Plant | BOF to continuous casting | 64 heats | CCD: 1410 min | Sequence-based planning |
 | Model 10 | Jingxi Steel Plant | Hot-metal arrival to continuous casting | 83 heats | CCD: 1609 min | Compact planning |
 | Model 11 | Shandong Steel Plant | BOF to continuous casting | 185 heats | CCD: 1832 min | Compact planning, route adaptation, and schedule repair |
@@ -99,7 +99,7 @@ Each card pairs a plant-specific simulation-based DT view with its continuous-ca
     </td>
     <td width="50%" valign="top">
       <h3>Model 7 - Nangang</h3>
-      <p><b>90 heats</b> · One-ladle hot-metal process to continuous casting</p>
+      <p><b>90 heats</b> · Blast-furnace iron tapping to continuous casting</p>
       <a href="assets/simulation/model7.gif"><img src="assets/simulation/model7.gif" width="100%" alt="Simulation-based DT view for Model 7"></a>
       <a href="assets/casting-rhythm/model7.png"><img src="assets/casting-rhythm/model7.png" width="100%" alt="Continuous-casting rhythm for Model 7"></a>
     </td>
@@ -107,7 +107,7 @@ Each card pairs a plant-specific simulation-based DT view with its continuous-ca
   <tr>
     <td width="50%" valign="top">
       <h3>Model 8 - Xindachang</h3>
-      <p><b>74 heats</b> · One-ladle hot-metal process to BOF</p>
+      <p><b>74 heats</b> · Blast-furnace iron tapping to continuous casting</p>
       <a href="assets/simulation/model8.gif"><img src="assets/simulation/model8.gif" width="100%" alt="Simulation-based DT view for Model 8"></a>
       <a href="assets/casting-rhythm/model8.png"><img src="assets/casting-rhythm/model8.png" width="100%" alt="Production rhythm for Model 8"></a>
     </td>

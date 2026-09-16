@@ -6,8 +6,8 @@ Model3,Jiangsu Yonggang Steelmaking Plant,Hot-metal arrival to continuous castin
 Model4,Jingye Steelmaking Plant,BOF to continuous casting,64 / 85 heats,CCD 2836 min for the reported scenario,Sequence-based planning and casting-start repair,Completed as planned
 Model5,Dagang Steelmaking Plant,Hot-metal arrival to continuous casting,84 heats,CCD 1440 min,Sequence-based planning,Completed as planned
 Model6,Hangang Steelmaking Plant,Hot-metal arrival to BOF,135 heats,Production requirement satisfied,Sequence-based planning,Completed as planned
-Model7,Nangang Steelmaking Plant,One-ladle hot-metal process to continuous casting,90 heats,CCD 1469 min,Hybrid compact/sequence planning and casting-start repair,Completed as planned
-Model8,Xindachang Plant,One-ladle hot-metal process to BOF,74 heats,Production requirement satisfied,Compact planning,Completed as planned
+Model7,Nangang Steelmaking Plant,Blast-furnace iron tapping to continuous casting,90 heats,CCD 1469 min,Hybrid compact/sequence planning and casting-start repair,Completed as planned
+Model8,Xindachang Plant,Blast-furnace iron tapping to continuous casting,74 heats,Production requirement satisfied,Compact planning,Completed as planned
 Model9,Yinggang Steelmaking Plant,BOF to continuous casting,64 heats,CCD 1410 min,Sequence-based planning,Completed as planned
 Model10,Jingxi Steel Plant,Hot-metal arrival to continuous casting,83 heats,CCD 1609 min,Compact planning,Completed as planned
 Model11,Shandong Steel Plant,BOF to continuous casting,185 heats,CCD 1832 min,"Compact planning; route adaptation; schedule repair",Completed as planned
